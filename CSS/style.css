@@ -24,10 +24,6 @@ nav {
     top: 0;
 }
 
-nav h2 {
-    font-size: 20px;
-}
-
 nav ul {
     display: flex;
     gap: 25px;
@@ -37,7 +33,6 @@ nav ul {
 nav a {
     color: #e2e8f0;
     text-decoration: none;
-    transition: 0.3s;
 }
 
 nav a:hover {
@@ -56,20 +51,23 @@ nav a:hover {
 
 .hero p {
     margin-top: 10px;
-    font-size: 18px;
     color: #94a3b8;
+}
+
+/* BUTTON GROUP */
+.btn-group {
+    margin-top: 20px;
 }
 
 /* BUTTON */
 .btn {
     display: inline-block;
-    margin-top: 20px;
+    margin: 10px;
     padding: 12px 25px;
     background: #3b82f6;
     color: white;
     text-decoration: none;
     border-radius: 6px;
-    transition: 0.3s;
 }
 
 .btn:hover {
@@ -85,7 +83,6 @@ section {
 
 h2 {
     margin-bottom: 25px;
-    font-size: 26px;
     border-bottom: 2px solid #3b82f6;
     display: inline-block;
 }
@@ -102,27 +99,31 @@ ul li {
     border-radius: 5px;
 }
 
-/* PROJECT GRID */
+/* PROJECTS */
 #projects {
     display: grid;
     gap: 20px;
 }
 
-/* PROJECT CARD */
 .project {
     background: #1e293b;
     padding: 20px;
     border-radius: 10px;
-    transition: 0.3s;
 }
 
 .project:hover {
-    transform: translateY(-5px);
     background: #334155;
 }
 
 /* CONTACT */
 #contact a {
     color: #3b82f6;
-    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 40px;
 }
